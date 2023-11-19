@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Plataforma
+        psr4_prefix: Plataforma
+        src_path: app

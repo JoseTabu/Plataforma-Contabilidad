@@ -1,0 +1,910 @@
+html,body,#wrapper,.datos-contenedor{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.datos-contenedor{
+    /*background: url('../images/fondo.jpg') no-repeat 0px 0px;*/
+    position: absolute;
+    left: 0;
+    top: 0;
+
+
+}
+
+#page-wrapper{
+    overflow: hidden;
+    right: 0;
+    min-width: 75%;
+    position: absolute;
+    left: 250px;
+
+
+}
+
+.administrador-fondo{
+    /*background-image: url("../images/fondo.jpg") !important;*/
+    background-repeat: no-repeat;
+}
+
+.datos{
+    margin: 30px 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0px;
+    min-width: 90%;
+    text-align: center;
+
+}
+
+.scrollable{
+    overflow-y: scroll;
+}
+
+.gestoria{
+    padding: 92px 140px;
+    border: solid;
+    position: relative;
+    float: left;
+    margin: 10px 8px;
+}
+
+.gestoria p{
+    text-align: center;
+}
+
+.gestoria .nombre{
+    font-size: 25px;
+}
+
+.gestoria .dni{
+    font-size: 15px;
+}
+
+.gestoria .clave{
+    font-size: 11px;
+}
+
+.gestoria .clave_clientes{
+    font-size: 11px;
+}
+
+
+.admin-form{
+    text-align: center;
+}
+
+.admin-form label{
+    display: block;
+}
+
+.admin-form .form-group{
+    width: 100%;
+    position: relative;
+}
+
+
+
+
+
+.caja {
+    width: 100%;
+}
+
+
+.fa-trash-o{
+    font-size: 20px;
+    color:red;
+    cursor: pointer;
+}
+
+.contacto {
+    position: absolute;
+    bottom: 0;
+    border: solid #385d89;
+    border-radius: 20px;
+    width: 250px;
+    height: 200px;
+    background-color: #4f80bc;
+}
+
+.contacto p {
+    text-align: center;
+    margin: 0;
+    color: #ffffff ;
+}
+
+.contacto a{
+    color: #ffffff !important;
+}
+
+.contacto img{
+    background-color: white;
+    margin-bottom: 29px;
+}
+
+@media (min-width: 768px) {
+    .contai {
+        text-align: center;
+        color: #777;
+        position: relative;
+        display: block;
+    }
+}
+
+.logeo {
+    color: #222;
+    font-size: 3.5em;
+    font-weight: 700;
+    margin-bottom: 12px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #4b4b4b;
+}
+
+
+.box{
+    display: inline-block;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+a.masaladerecha{
+    padding-left: 55px!important;
+}
+
+
+.dropzone{
+    min-height: 50px !important;
+    width: 500px;
+    padding: 1px!important;
+    margin: auto;
+
+}
+
+.dropzone a{
+    margin: 0;
+}
+
+.dz-message{
+    background: none!important;
+}
+
+h3{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.dropzone .dz-default.dz-message
+{
+    background:url("../images/dropzone.jpg")!important;
+    margin-left: 0!important;
+    margin-top: 0!important;
+    top: 0!important;
+    left: 0!important;
+    height: 100%!important;
+    width: 100%!important;
+}
+
+.tablaArchivos thead tr{
+    max-width: 851px;
+}
+
+
+.tablaArchivos,.tablaArchivos *{
+    display: block;
+    width: 100%;
+}
+
+.tablaArchivos th,.tablaArchivos td{
+    display: inline-block;
+    width: 20%;
+}
+
+.tablaArchivos tbody{
+    max-height: 177px;
+    overflow-y: scroll;
+}
+
+.pdflogo{
+    background:url("../images/pdflogo.png")!important;
+    background-repeat: no-repeat!important;
+    background-position-x: -7px!important;
+    background-position-y: 0!important;
+    background-size: 50px !important;
+    width: 40px;
+    height: 35px;
+    display: inline-block;
+}
+
+.modal-backdrop{
+    height: 100%;
+    position: fixed;
+}
+
+.navbar-header,.navbar-brand,.navbar-brandimg{
+    width: 100%;
+
+}
+
+.navbar-header{
+    position: absolute;
+
+}
+
+.navbar-brandimg{
+    z-index: 10;
+    position: absolute;
+    width: 145px;
+
+
+}
+
+.navbar-brand{
+
+    text-align: center;
+    width: 100%;
+
+}
+
+.centra{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+.navbar-brandimg img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clickable{
+    cursor: pointer;
+}
+
+.tablaArchivo,.tablaArchivo *{
+    display: block;
+    width: 100%;
+}
+
+.tablaArchivo th,.tablaArchivo td{
+    display: inline-block;
+    width: 20%;
+}
+
+.tablaArchivo tbody{
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+.paraClientes{
+    position: relative;
+    z-index: 1;
+
+}
+
+.ui-widget,.ui-widget a{
+    font-family: inherit !important;
+}
+
+#accordeon{
+    margin-top: 20px;
+}
+
+#estadosContablesArchivos div {
+    padding: 5px;
+}
+
+#estadosContablesArchivos .fa-trash-o {
+    font-size: 28px;
+    padding-left: 16px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#estadosContablesArchivos a{
+    padding: 9px 14px;
+    margin-bottom: 14px;
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
+    border-radius: 4px;
+
+
+}
+
+a{
+    text-decoration: none!important;
+    color: #337ab7!important;
+}
+
+.fuera a{
+    text-decoration: none!important;
+    color: #58678A !important;
+    font-weight: bolder;
+}
+
+.btn-primary {
+    color: #fff !important;
+}
+
+.page-clientes{
+    position: absolute;
+    left: 0 !important;
+    overflow-y: scroll;
+}
+
+.page-clientes .modal-dialog{
+    width: 100%;
+    height: 100%;
+}
+
+.page-clientes .datos{
+    margin: 10px 50px;
+    right: 0;
+    padding-right: 0;
+    overflow-x: hidden;
+}
+
+
+.nav,.sidebar{
+    padding: 0 !important;
+}
+
+.visor{
+    position: absolute;
+    /* width: 100%; */
+    /* height: 150%; */
+    bottom: 0;
+    left: 0;
+    height: 100%;
+}
+
+.sidebar{
+    top: 51px;
+    bottom: 0px;
+    margin: 0;
+    position: absolute;
+
+}
+
+.element{
+    -webkit-animation: KEYFRAME-NAME 5s ;
+    -moz-animation:    KEYFRAME-NAME 5s ;
+    -o-animation:      KEYFRAME-NAME 5s ;
+    animation:         KEYFRAME-NAME 5s ;
+}
+
+@-webkit-keyframes KEYFRAME-NAME {
+    0%   { left: 250px; }
+    100% {left: 0px; }
+}
+
+@-webkit-keyframes KEYFRAME-NAME2 {
+    0%   { left: 0; }
+    100% {left: 250px; }
+}
+
+
+.dropdown{
+    float: right;
+    margin: 0!important;
+}
+
+#slider{
+
+    width: 100%;
+    margin: 14px 55px;
+}
+
+.mensajeGestoria{
+    z-index: 20;
+    position: relative;
+    margin-bottom: 0;
+}
+
+#interfaz{
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: 80px;
+
+}
+
+#interfaz .busqueda{
+    position: absolute;
+    right: 57px;
+    bottom: 22px;
+    z-index: 2;
+}
+
+
+.tabla-disposicion
+{
+    display: table;
+}
+
+
+#gestorias{
+    position: relative;
+    /*overflow-y: scroll;*/
+    bottom: 0;
+    top: 0px;
+    width: 100%;
+}
+
+.paginacion{
+    font-size: 20px;
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+}
+
+.gestoria p{
+    margin-bottom: 5px;
+}
+
+.gestoria .btn{
+    margin: 0px 5px;
+    margin-top: 10px;
+}
+
+
+.nav-justified {
+    width: 150px;
+    margin: 20px;
+    float: left;
+}
+
+.claves{
+    border: solid;
+    margin: 35px 0px;
+    padding: 34px 36px;
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+
+#generar{
+    margin-top:22px;
+    color:white!important;
+}
+
+.tablacordeon{
+    width: 100%;
+}
+
+#registro{
+    width: 300px;
+}
+
+.centrartotal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform:translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+}
+
+.scroll-vertical{
+    overflow-y: scroll;
+}
+
+.pendientes{
+    background-color: rgba(255, 189, 74, 0.67);
+}
+
+.toolbar{
+    height: 50px;
+    width: 52px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.toolbar i{
+    font-size: 20px;
+}
+
+.recoge{
+    -webkit-animation: KEYFRAME-NAME 3s forwards;
+    -moz-animation:    KEYFRAME-NAME 3s forwards;
+    -o-animation:      KEYFRAME-NAME 3s forwards;
+    animation:         KEYFRAME-NAME 3s forwards;
+}
+
+.saca{
+    -webkit-animation: KEYFRAME-NAME2 3s forwards;
+    -moz-animation:    KEYFRAME-NAME2 3s forwards;
+    -o-animation:      KEYFRAME-NAME2 3s forwards;
+    animation:         KEYFRAME-NAME2 3s forwards ;
+}
+
+.oculta{
+    left: 0!important;
+}
+.tableClientes
+{
+    display: block;
+    height: 100%;
+
+}
+.tableClientes tbody,.tableClientes thead,.tableClientes tr{
+    display: block;
+    width: 100%;
+}
+
+.tableClientes td,.tableClientes th{
+    display: inline-block;
+    width: 25%;
+}
+
+.tableClientes th{
+    width: 24.5%!important;
+}
+
+.tableClientes tbody{
+    overflow-y: scroll;
+    height: 80%;
+}
+
+.busqueda{
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.busqueda input{
+    width: 158px;
+}
+
+.floatlef{
+    float: left;
+}
+
+.izquierda{
+    left: 0 !important;
+    position: absolute;
+}
+
+.logo-c{
+    top:0;
+    width: 100%;
+    position: absolute;
+    height: 50px;
+    text-align: center;
+
+}
+
+.logo-corporativo{
+    max-width: 913px;
+    height: 50px;
+}
+
+.subirArchivos{
+    margin-bottom: 20px;
+}
+
+.subirArchivos *{
+    display: inline-block;
+}
+
+.subirArchivos label{
+    padding-right: 20px;
+}
+
+#panel{
+    font-size: 32px;
+    font-family: 'Open Sans';
+    color: #000000 !important;
+}
+
+.listaClientes,.contables{
+    list-style-type:none ;
+}
+
+.contables > li{
+    transition: all 0.2s;
+}
+
+.asignar> ul{
+    float: right;
+    width: 50%;
+}
+
+.asignar{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.asignar #acordeon{
+    float: left;
+    width:50%;
+}
+.boton-asignar{
+    width: 100%;
+}
+
+.boton-asignar button{
+    width: 50%;
+}
+
+
+.busquedac {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.sortable2{
+    min-height: 10px;
+}
+
+
+.logo-empresa{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.logo-empresa img {
+     width: 40px;
+ }
+
+.logotipo{
+    vertical-align: text-top;
+    width: 100%;
+}
+
+
+
+/*Moviles*/
+
+@media (max-width: 767px){
+    .tableClientes th{
+        width: 24%!important;
+    }
+
+    .gestoria {
+        padding: 92px 114px;
+    }
+
+    .busqueda{
+
+    }
+
+}
+.datos{
+    padding-right: 40px;
+}
+
+
+.eficiencia text{
+    margin:0px 10px;
+}
+
+
+
+
+
+/*Tablets*/
+@media (max-width: 991px) and (min-width: 768px){
+    .datos-contenedor{
+        overflow-x:scroll ;
+    }
+
+    .datos{
+        padding-right: 40px;
+    }
+
+}
+
+
+/*/ Móviles en vertical^*/
+@media (max-width: 480px) {
+
+    .pendientes{
+        background-color: rgba(255, 189, 74, 0.67);
+    }
+
+    .logotipo{
+        vertical-align: text-top;
+        width: 100%;
+    }
+
+    .modal-dialog.modal-lg{
+        margin:0;
+    }
+
+    #page-wrapper{
+        top:50px;
+        bottom:0;
+
+
+    }
+
+    .tableClientes th{
+        width: 24%!important;
+    }
+
+    .tableClientes thead{
+        display: flex;
+        width: 110%;
+        right: 60px;
+        position: static;
+        float: right;
+    }
+
+    .tableClientes tbody {
+        overflow-y: scroll;
+        height: 80%;
+        width: 110%;
+
+        position: static;
+        padding-top: 0px;
+        float: right;
+
+    }
+
+    .paraClientes {
+        position: relative;
+        z-index: 1;
+        overflow: scroll;
+    }
+
+
+    .datos-contenedor {
+        overflow: scroll;
+
+    }
+
+    .datos {
+        padding-right: 40px;
+    }
+
+    .logo-c {
+        top: 0;
+        width: 100%;
+        position: absolute;
+        height: 50px;
+        text-align: center;
+
+    }
+
+    img {
+        vertical-align: text-top;
+        width: 40%;
+    }
+
+    #interfaz {
+
+
+    }
+
+    #gestorias {
+
+        top: -40px;
+
+    }
+
+    .datos.editarusuario {
+        padding-right: 0;
+        min-width: 0;
+        right: 0;
+    }
+
+    .editarusuario .nav-justified {
+        width: 103px;
+        margin: 11px;
+    }
+
+    .claves {
+        border: solid;
+        margin: 10px 0px;
+        padding: 34px 36px;
+        background-color: #f8f8f8;
+        border-color: #e7e7e7;
+    }
+
+    #registro {
+        width: initial;
+    }
+
+
+    #interfaz .busqueda {
+        top:0;
+    }
+
+    .modal.in .modal-dialog{
+
+        -webkit-transform: translate(0,0);
+        -ms-transform: translate(0,0);
+        -o-transform: translate(0,0);
+        transform: translate(0,0);
+        width: 640px;
+        -moz-transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+        -o-transform: scale(0.5);
+        transform: scale(0.5);
+        right: 135px;
+        top: 0px;
+
+
+    }
+
+    .modal-open {
+        overflow: scroll;
+    }
+
+
+    .busquedac {
+        position: relative;
+        right: 20px;
+        bottom: 22px;
+        z-index: 2;
+        text-align: center;
+        margin-bottom: 7px;
+        top: inherit;
+        right: 0px;
+    }
+
+
+    /*esto*/
+    #panel {
+        font-size: 20px;
+        font-family: 'Open Sans';
+        color: #000000 !important;
+    }
+
+    .contacto img {
+        background-color: white;
+        margin-bottom: 29px;
+        width: 220px;
+    }
+
+    .logo-corporativo {
+        max-width: 50px;
+        height: 50px;
+    }
+
+    .navbar-top-links li a {
+        padding: 15px;
+        min-height: 50px;
+        font-size: 11px;
+    }
+
+    .logo-empresa img {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 30px;
+    }
+
+
+    .page-clientes .datos{
+        margin: 0!important;
+        padding: 0!important;
+    }
+
+
+
+}
+
+
+
+/*Pantallas mediana*/
+
+@media (max-width: 1199px) and (min-width: 992px){
+
+
+}
+
+/*Pantallas ordenador*/
+
+@media (min-width: 992px){
+
+}
+
+
